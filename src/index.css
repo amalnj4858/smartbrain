@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image : url('AI1.jpg');
+  color: #ADD8E6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#nav{
+	height: 100px;
+}
+
+#detection{
+	height : 200px;
+	text-align: left;
+}
+
+#response{
+	height : 200px;
+	text-align: left;
+}
+
+#tips{
+	text-align: left;
+}
+
+#nav{
+	display: flex;
+	justify-content: flex-end;
+	color: rgba(255,255,255,0.5);
+	height: fit-content;
+}
+
+#image{
+	height: auto;
+	width: 300px;
+}
+
+#urlinput{
+	width : 450px;
+}
+
+.underline{
+	width: fit-content;
+	height: fit-content;
+}
+
+#attributes{
+	text-align: left;
+	background: rgba(255,255,255,0.1);
+}
+
+#assistant,
+#detectbox
+{
+	background:rgba(0,0,0,0.7);
+}
+
+#object{
+	background:rgba(0,0,0,0.7);
+    height:850px;
+}
+
+#home{
+	background:rgba(0,0,0,0.7);
+	height: 100vh;
+}
+
+#urldetector{
+	height: fit-content;
+	width: fit-content;
+}
+
+li{
+	margin: 0.5em;
+}
+
+button{
+	background : #ADD8E6;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.gap{
+	height:80px;
+}
+
+#logo{
+	height: auto;
+	width: 100px;
+	border-radius: 200px;
+}
+
+#models{
+	display: flex;
+	justify-content: center;
+	width: 400px;
+	height: 100px;
+	align-items: center;
+	background :rgba(255,255,255,0.1);
+}
+
+.start{
+	height: 100vh;
+	background:rgba(0,0,0,1);	
+}
+
+#name,
+#password,
+#signin
+{
+	color : white;
+}
+
+
+
